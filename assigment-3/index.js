@@ -7,7 +7,7 @@ function search() {
     const input = document.getElementById("search").value;
     const url = 'https://covid-193.p.rapidapi.com/statistics?country='+input;
     const headers = {
-      "X-RapidAPI-Key": "fd95897d1fmsh16cd082ff4db73ep145e8fjsn5adfe90752d1",
+      "X-RapidAPI-Key": "",
       "X-RapidAPI-Host": "covid-193.p.rapidapi.com",
     };
 
